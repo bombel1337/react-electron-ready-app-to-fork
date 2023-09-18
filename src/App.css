@@ -10,13 +10,13 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Prevent scrollbars */
+  overflow: hidden; 
 }
 
 body {
   background: transparent !important;
   position: relative;
-  overscroll-behavior: none; /* Prevent overscrolling behavior */
+  overscroll-behavior: none;
 }
 
 body::before {
