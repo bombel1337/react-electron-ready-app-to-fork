@@ -2,7 +2,7 @@ import './topbar.css'
 
 function Topbar() {
   let title = document.getElementById('title').innerHTML;
-  // document.getElementById('titleShown').innerHTML = title
+  document.getElementById('titleShown').innerHTML = title
 
   return (
     <div id="topbar">
